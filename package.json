@@ -1,0 +1,26 @@
+{
+  "name": "schnorr-proof-lab",
+  "version": "1.0.0",
+  "description": "教学用 Schnorr 离散对数知识证明实验服务（API + CLI，仅用于教学，禁止用于生产身份认证）",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "schnorr-lab": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "dev": "node --watch dist/server.js",
+    "pretest": "tsc -p tsconfig.json",
+    "test": "node --test dist/test/*.test.js",
+    "demo": "node dist/scripts/demo.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.7.0"
+  }
+}
