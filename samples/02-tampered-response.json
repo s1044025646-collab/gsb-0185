@@ -1,0 +1,13 @@
+{
+  "note": "响应被加 1，验证方程失败",
+  "transcript": {
+    "version": "schnorr-teaching/1.0",
+    "transcriptType": "fiat-shamir",
+    "groupLabel": "small-unsafe-demo",
+    "context": "classroom-A",
+    "publicKey": "451",
+    "commitment": "8",
+    "challenge": "75",
+    "response": "95"
+  }
+}

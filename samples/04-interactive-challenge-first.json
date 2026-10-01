@@ -1,0 +1,13 @@
+{
+  "note": "交互挑战首次提交（服务端需有对应待消费挑战）",
+  "transcript": {
+    "version": "schnorr-teaching/1.0",
+    "transcriptType": "interactive",
+    "groupLabel": "small-unsafe-demo",
+    "context": "classroom-A",
+    "publicKey": "451",
+    "commitment": "8",
+    "challenge": "5",
+    "response": "79"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "note": "nonce 重用样本 B：相同承诺 t，挑战 42；与 A 联立恢复 x=7",
+  "transcript": {
+    "version": "schnorr-teaching/1.0",
+    "transcriptType": "interactive",
+    "groupLabel": "small-unsafe-demo",
+    "context": "nonce-reuse-demo",
+    "publicKey": "451",
+    "commitment": "8",
+    "challenge": "42",
+    "response": "22"
+  }
+}

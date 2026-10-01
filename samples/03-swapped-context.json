@@ -1,0 +1,13 @@
+{
+  "note": "上下文替换为 classroom-B，Fiat-Shamir 挑战不匹配",
+  "transcript": {
+    "version": "schnorr-teaching/1.0",
+    "transcriptType": "fiat-shamir",
+    "groupLabel": "small-unsafe-demo",
+    "context": "classroom-B",
+    "publicKey": "451",
+    "commitment": "8",
+    "challenge": "75",
+    "response": "94"
+  }
+}

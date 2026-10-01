@@ -1,0 +1,13 @@
+{
+  "note": "nonce 重用样本 A：相同承诺 t，挑战 5",
+  "transcript": {
+    "version": "schnorr-teaching/1.0",
+    "transcriptType": "interactive",
+    "groupLabel": "small-unsafe-demo",
+    "context": "nonce-reuse-demo",
+    "publicKey": "451",
+    "commitment": "8",
+    "challenge": "5",
+    "response": "79"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "note": "重复挑战/重放：服务端必须以 409 拒绝",
+  "transcript": {
+    "version": "schnorr-teaching/1.0",
+    "transcriptType": "interactive",
+    "groupLabel": "small-unsafe-demo",
+    "context": "classroom-A",
+    "publicKey": "451",
+    "commitment": "8",
+    "challenge": "5",
+    "response": "79",
+    "note": "同一挑战 id 的第二次提交应被服务拒绝（一次性消费）"
+  }
+}

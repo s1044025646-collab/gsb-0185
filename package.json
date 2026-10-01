@@ -1,0 +1,27 @@
+{
+  "name": "schnorr-proof-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "教学用 Schnorr 离散对数知识证明实验服务（API + CLI，仅限教学，不可用于生产身份认证）",
+  "type": "commonjs",
+  "bin": {
+    "schnorr-demo": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "demo": "node dist/demo.js",
+    "samples": "node dist/make-samples.js",
+    "test": "node --test --test-reporter=spec dist/tests/*.test.js",
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^24.0.0"
+  }
+}
+
+
